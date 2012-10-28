@@ -1,13 +1,16 @@
 Summary:	LV2 host for jack
 Name:		jalv
-Version:	1.0.0
-Release:	2
+Version:	1.2.0
+Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://download.drobilla.net/jalv-%{version}.tar.bz2
-# Source0-md5:	f20f81dbb437f4e4ea10e00694f6cc4d
+# Source0-md5:	babb0ffb0f5083d87b93def98880579d
 BuildRequires:	QtGui-devel
+BuildRequires:	gtk+-devel
+BuildRequires:	gtk+3-devel
 BuildRequires:	gtkmm-devel
+BuildRequires:	jack-audio-connection-kit-devel
 BuildRequires:	liblilv-devel
 BuildRequires:	libserd-devel
 BuildRequires:	libstdc++-devel
@@ -51,6 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/jalv
 %attr(755,root,root) %{_bindir}/jalv.gtk
 # not fully working
+#%attr(755,root,root) %{_bindir}/jalv.gtk3
 #%attr(755,root,root) %{_bindir}/jalv.gtkmm
 #%attr(755,root,root) %{_bindir}/jalv.qt
 %{_mandir}/man1/jalv.1*
