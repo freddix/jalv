@@ -1,11 +1,11 @@
 Summary:	LV2 host for jack
 Name:		jalv
-Version:	1.4.2
+Version:	1.4.4
 Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://download.drobilla.net/jalv-%{version}.tar.bz2
-# Source0-md5:	a649bbe71ecb54563764f4acbdcc84f6
+# Source0-md5:	56aea296a43b2906cc930c1727b3835c
 BuildRequires:	QtGui-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	gtk+3-devel
