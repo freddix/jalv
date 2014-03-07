@@ -7,6 +7,7 @@ Group:		Libraries
 Source0:	http://download.drobilla.net/jalv-%{version}.tar.bz2
 # Source0-md5:	56aea296a43b2906cc930c1727b3835c
 BuildRequires:	QtGui-devel
+BuildRequires:	aubio-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	gtk+3-devel
 BuildRequires:	gtkmm-devel
