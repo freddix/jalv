@@ -1,18 +1,18 @@
 Summary:	LV2 host for jack
 Name:		jalv
-Version:	1.4.4
+Version:	1.4.6
 Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://download.drobilla.net/jalv-%{version}.tar.bz2
-# Source0-md5:	56aea296a43b2906cc930c1727b3835c
+# Source0-md5:	8c11c58c4b0e69fb6b21041bcac275f7
 BuildRequires:	QtGui-devel
 BuildRequires:	aubio-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	gtk+3-devel
 BuildRequires:	gtkmm-devel
 BuildRequires:	jack-audio-connection-kit-devel
-BuildRequires:	liblilv-devel >= 0.16.0
+BuildRequires:	liblilv-devel >= 0.20.0
 BuildRequires:	libserd-devel
 BuildRequires:	libstdc++-devel
 BuildRequires:	libsuil-devel
